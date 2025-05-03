@@ -1,0 +1,87 @@
+# FastAPI specific
+.env
+.env.local
+.env.dev
+.env.prod
+.env.test
+secrets/
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+ENV.bak/
+pythonenv*
+
+# Database
+*.db
+*.sqlite
+*.sql
+migrations/
+alembic.ini
+
+# Logs and databases
+*.log
+logs/
+
+# Local development
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.coverage.*
+
+# Mypy cache
+.mypy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Node.js (if using frontend)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build and packaging
+site/
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
